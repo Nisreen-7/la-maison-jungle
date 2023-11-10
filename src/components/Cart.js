@@ -77,7 +77,7 @@ function Cart({ cart, updateCart }) {
                           updateQuantity(id, parseInt(e.target.value))
                         }
                       />
-                      <button onClick={() => deleteItem(id, name)}>
+                      <button className="btnD" onClick={() => deleteItem(id, name)}>
                         Delete
                       </button>
                       <hr />
@@ -88,7 +88,7 @@ function Cart({ cart, updateCart }) {
             ))}
           </ul>
           <h3>Total :{total} €</h3>
-          <button onClick={() => updateCart([])}>Vider le panier</button>
+          <button className="btnV" onClick={() => updateCart([])}>Vider le panier</button>
         </div>
       ) : (
         <div>Votre panier est vide</div>

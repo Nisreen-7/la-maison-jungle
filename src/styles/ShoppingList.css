@@ -9,3 +9,18 @@
 	flex-wrap: wrap;
 	justify-content: center;
 }
+
+.btn {
+	background-color: #31b472; /* Couleur verte claire */
+	color: #fff; /* Texte en blanc pour contraster */
+	padding: 10px 20px; /* Ajoutez un espace de rembourrage pour un look plus agréable */
+	border: none; /* Supprimez la bordure pour un aspect épuré */
+	border-radius: 5px; /* Ajoutez des coins arrondis pour un aspect moderne */
+	cursor: pointer; /* Changez le curseur au survol pour indiquer que c'est un élément cliquable */
+	font-size: 16px; /* Taille du texte */
+  }
+  
+  /* Changez la couleur du texte au survol du bouton */
+  .btn:hover {
+	background-color: #45a049; /* Légère variation de la couleur pour indiquer l'état de survol */
+  }

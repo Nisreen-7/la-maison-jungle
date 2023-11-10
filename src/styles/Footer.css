@@ -12,3 +12,25 @@
 .lmj-footer-elem {
 	margin-bottom: 10px;
 }
+input{
+	height: 9px; /* Ajustez la valeur en pixels selon vos besoins */
+	padding: 8px; /* Ajoutez un peu de rembourrage pour un meilleur aspect */
+	font-size: 16px;
+}
+
+
+.btnE {
+	background-color: #4caf50; 
+	color: #fff;
+	padding: 7px; 
+	margin: 3px;
+	border: none; 
+	border-radius: 5px; 
+	cursor: pointer; 
+	transition: background-color 0.3s;
+  }
+  
+  
+  .btnE:hover {
+	background-color: #e0e0e0; 
+  }

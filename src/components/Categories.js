@@ -1,7 +1,6 @@
 import "../styles/Categories.css";
 
-
-function Categories({categories, setActiveCategory, activeCategory }) {
+function Categories({ categories, setActiveCategory, activeCategory }) {
   return (
     <div className="lmj-categories">
       <select
@@ -16,7 +15,9 @@ function Categories({categories, setActiveCategory, activeCategory }) {
           </option>
         ))}
       </select>
-      <button onClick={() => setActiveCategory("")}>All Notre Categories</button>
+      <button onClick={() => setActiveCategory("")}>
+        All Notre Categories
+      </button>
     </div>
   );
 }
