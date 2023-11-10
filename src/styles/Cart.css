@@ -5,7 +5,7 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	width: 200px;
+	width: 230px;
 }
 
 .lmj-cart-add-button {
@@ -31,4 +31,18 @@
 
 .lmj-cart-closed > button {
 	color: black;
+}
+
+
+.lmj-cart-closed > img {
+	max-width: 50px;
+	max-height: 50px;
+	margin-left: 32px;
+	margin-top: 32px;
+	margin-right: 5px;
+}
+#quantité{
+
+		width: 3em;
+	  
 }
